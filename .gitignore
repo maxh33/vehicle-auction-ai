@@ -1,0 +1,37 @@
+# Banco SQLite (gerado pelo script, não versionar dados)
+pecas/pecas.db
+pecas/pecas.db-wal
+pecas/pecas.db-shm
+
+# Dumps OLX brutos (arquivos grandes, dados de terceiros)
+pecas/*/raw/
+
+# Fotos dos lotes (pesadas, não versionar)
+lotes/*/fotos/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Secrets e envs
+.env
+.env.local
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+.fuse_hidden*
+
+# Secrets patterns (safety net)
+.env*.local
+*.secret
+oauth_creds.json
+id_rsa
+id_ed25519
