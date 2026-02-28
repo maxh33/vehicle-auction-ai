@@ -1,4 +1,4 @@
-# analise-leilao-IA
+# Vehicle Auction AI
 
 > 🇺🇸 [English version](README.en.md) &nbsp;|&nbsp; [github.com/maxh33/vehicle-auction-ai](https://github.com/maxh33/vehicle-auction-ai)
 
@@ -24,12 +24,12 @@ Relatórios gerados (analise-tecnica.md + analise-custo.md)
 Decisão: lance máximo, condicionantes, ou descartar lote
 ```
 
-**Outros leilões (Sodré Santoro, etc.) — coleta manual:**
+**Outros leilões (Sodré Santoro, etc.) — coleta manual** *(automação planejada)*:
 
 ```
 Leilão online
     ↓
-Coleta manual de dados brutos (descrição do lote, condições de venda, preços de desmanche)
+Coleta manual de dados brutos (descrição do lote, condições de venda)
     ↓
 Fotos do veículo (baixadas do site ou tiradas na vistoria)
     ↓
@@ -42,12 +42,16 @@ Relatórios gerados (analise-tecnica.md + analise-custo.md)
 Decisão: lance máximo, condicionantes, ou descartar lote
 ```
 
+> **Roadmap:** scrapers para Sodré Santoro, Leilão Meu, Pátio Digital e outras
+> leiloeiras brasileiras estão planejados. Contribuições são bem-vindas — veja a
+> seção [Contributing](README.en.md#contributing) no README em inglês.
+
 ---
 
 ## Estrutura do Projeto
 
 ```
-analise-leilao-IA/
+vehicle-auction-ai/
 │
 ├── README.md                          # Este arquivo
 │
@@ -104,7 +108,7 @@ analise-leilao-IA/
 Execute o scraper com a URL do lote:
 
 ```bash
-cd /mnt/storage/Programacao/Repositorios/analise-leilao-IA
+cd /path/to/vehicle-auction-ai
 source ~/.secrets
 python3 scripts/copart_scraper.py https://www.copart.com.br/lot/NUMERO_DO_LOTE
 ```

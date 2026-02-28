@@ -24,12 +24,12 @@ Reports: analise-tecnica.md (damage assessment) + analise-custo.md (cost/bid)
 Decision: max bid, conditionals, or discard
 ```
 
-**Other auctions (Sodré Santoro, etc.) — manual collection:**
+**Other auctions (Sodré Santoro, etc.) — manual collection** *(automation planned)*:
 
 ```
 Auction website
     ↓
-Manual data collection (lot description, sale conditions, parts prices)
+Manual data collection (lot description, sale conditions)
     ↓
 Vehicle photos (downloaded or taken during on-site inspection)
     ↓
@@ -40,12 +40,16 @@ AI analysis — photos + raw data + prompt
 Reports saved to lot folder
 ```
 
+> **Roadmap:** scrapers for Sodré Santoro, Leilão Meu, Pátio Digital, and other
+> Brazilian auction houses are planned. Contributions welcome — see
+> [Contributing](#contributing).
+
 ---
 
 ## Project structure
 
 ```
-analise-leilao-IA/
+vehicle-auction-ai/
 │
 ├── README.md / README.en.md           # Documentation (PT/EN)
 │
