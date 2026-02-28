@@ -1,0 +1,54 @@
+Leiloeira: Copart Brazil
+Código do Lote: 1062630
+URL: https://www.copart.com.br (buscar por código 1062630)
+
+--- DADOS DO VEÍCULO ---
+
+Marca: TOYOTA
+Modelo: PRIUS
+Versão: Prius Hybrid 1.8 16V VVT-i
+Ano de Fabricação: 2016
+Ano Modelo: 2016
+Blindado: Não
+Combustível: HÍBRIDO ELÉTRICO/GASOLINA
+Final de Placa: 1
+Chave: Sim
+Condição de Funcionamento: Motor dá partida e engrena
+
+--- DANO / CLASSIFICAÇÃO ---
+
+Condição: COLISÃO
+Tipo de Documento: Aguardando Classificação
+Tipo de Monta: Aguardando Classificação
+Tipo de Chassi: Aguardando Classificação
+
+--- VALORES ---
+
+Valor FIPE: R$ 81.842,00
+
+--- LOCALIZAÇÃO ---
+
+Pátio: EUSÉBIO - CE
+
+--- STATUS DA VENDA ---
+
+Data da Venda: Venda Futura
+Observação: Veículo ainda NÃO está liberado para venda em leilão. O processo de
+indenização ou recuperação entre o Comitente Vendedor e o Segurado/Financiado não foi
+finalizado, ou a regularização dos documentos ainda está em tratamento. A Copart aguarda
+conclusão do processamento. Quando liberado, será notificado por e-mail se favoritado.
+
+--- ALERTAS INICIAIS ---
+
+- Localização em Eusébio/CE: frete longo para compradores em outros estados
+- Tipo de Monta aguardando classificação: pode ser Média ou Alta Monta (impacto em INMETRO)
+- Tipo de Documento aguardando classificação: risco de documentação irregular
+- Condição "COLISÃO" (não enchente): risco de bateria HV diferente do Lote 0215
+- Motor dá partida e engrena: sinal positivo — sistema elétrico básico funcionando
+- Venda Futura: monitorar notificações da Copart para data de leilão
+
+--- FOTOS DISPONÍVEIS ---
+
+11 fotos listadas no site (HD disponível)
+Data de coleta desta descrição: [preencher]
+Fotos salvas em: fotos/
