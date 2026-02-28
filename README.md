@@ -43,8 +43,8 @@ Decisão: lance máximo, condicionantes, ou descartar lote
 ```
 
 > **Roadmap:** scrapers para Sodré Santoro, Leilão Meu, Pátio Digital e outras
-> leiloeiras brasileiras estão planejados. Contribuições são bem-vindas — veja a
-> seção [Contributing](README.en.md#contributing) no README em inglês.
+> leiloeiras brasileiras estão planejados. Contribuições são bem-vindas —
+> veja a seção [Contribuindo](#contribuindo).
 
 ---
 
@@ -348,5 +348,54 @@ Ou submeta o arquivo diretamente no contexto da sessão Claude.
 - **Comissão do leiloeiro** — Geralmente 5% sobre o valor do arremate (não reembolsável)
 - **IPVA e licenciamento** — Verificar se está quitado pelo vendedor antes do lance
 - **Multas anteriores ao leilão** — Responsabilidade do comprador (até R$ 500 o seguro pode cobrir)
+
+---
+
+## Contribuindo
+
+Contribuições são bem-vindas! Os componentes principais são genéricos e feitos para crescer com a comunidade.
+
+### O que você pode contribuir
+
+| Área | Exemplos |
+|------|---------|
+| **Novos scrapers** | Sodré Santoro, Leilão Meu, Pátio Digital, Bidar, Zukerman |
+| **Guias de veículos** | Checklists de pré-compra para outros modelos (Civic, HB20, Creta, Fiat Strada…) |
+| **Melhorias no parser OLX** | Novas keywords de categorização, suporte a dumps do Mercado Livre |
+| **Dados de preços** | Cestas `cesta-*.md` para novos modelos de veículos |
+| **Template de prompt** | Novos tipos de dano, cenários de custo, melhorias no raciocínio da IA |
+| **Bugs e edge cases** | Falhas de parsing, categorização incorreta, erros no scraper |
+| **Documentação** | Correções, exemplos de uso, traduções |
+
+### Como contribuir
+
+1. Faça um **fork** do repositório
+2. Crie uma **branch** seguindo a convenção:
+   - `feat/scraper-sodre-santoro` — nova funcionalidade
+   - `fix/parser-preco-edge-case` — correção de bug
+   - `docs/guia-honda-civic` — documentação
+3. Desenvolva mantendo os padrões:
+   - Python 3.8+ compatível
+   - Sem credenciais hardcoded — use variáveis de ambiente
+   - Dependências externas mínimas (prefira stdlib)
+   - Siga as convenções de nomenclatura existentes
+4. Abra um **Pull Request** com descrição clara do que foi alterado e por quê
+
+### Reportar bugs ou sugerir funcionalidades
+
+Abra uma [Issue no GitHub](https://github.com/maxh33/vehicle-auction-ai/issues) descrevendo:
+- O que você esperava que acontecesse
+- O que aconteceu de fato
+- Passos para reproduzir (inclua trechos anonimizados do dump se relevante)
+
+---
+
+## Licença
+
+MIT License — veja [LICENSE](LICENSE) para o texto completo.
+
+Livre para usar, modificar e distribuir. Atribuição apreciada, mas não obrigatória.
+
+---
 
 <!-- seo-keywords: leilão veículo IA inteligência artificial análise lote copart brasil olx desmanche preço peças sqlite python claude gemini veículo sinistro enchente colisão prius byd dolphin híbrido elétrico lance máximo recuperação veículo scraper automação auction vehicle analysis brazil damaged car flood collision salvage bid decision tool parts price database -->

@@ -229,13 +229,48 @@ Photos: all in HD (1600×1200) with correct file extension auto-detected.
 
 ## Contributing
 
-This framework was built for the Brazilian salvage auction market, but the core components are generic:
+This framework was built for the Brazilian salvage auction market, but the core components are generic and designed to be extended.
 
-- **`parse_pecas_olx.py`** — works with any OLX seller profile dump, any vehicle model
-- **`copart_scraper.py`** — works with any Copart Brazil lot URL
-- **Prompt template** — adaptable to any damaged vehicle type
+### What contributions are welcome
 
-Pull requests welcome for: additional vehicle guides, improved OLX categorization keywords, support for other Brazilian auction houses (Leilão Meu, Pátio Digital, etc.).
+| Area | Examples |
+|------|---------|
+| **New auction scrapers** | Sodré Santoro, Leilão Meu, Pátio Digital, Bidar, Zukerman |
+| **Vehicle guides** | Pre-purchase checklists for popular models (Civic, HB20, Creta, Fiat Strada, etc.) |
+| **OLX parser improvements** | Better auto-categorization keywords, support for Mercado Livre dumps |
+| **Parts price data** | Additional `cesta-*.md` exports for other vehicle models |
+| **Prompt template** | Improvements to the master analysis prompt (new damage types, cost scenarios) |
+| **Bug reports** | Parsing edge cases, incorrect categorization, scraper failures |
+| **Documentation** | Corrections, translations, usage examples |
+
+### How to contribute
+
+1. **Fork** the repository
+2. **Create a branch** following the convention:
+   - `feat/sodre-santoro-scraper` — new feature
+   - `fix/olx-parser-price-edge-case` — bug fix
+   - `docs/civic-pre-purchase-guide` — documentation
+3. **Make your changes**, keeping these standards:
+   - Python 3.8+ compatible
+   - No hardcoded credentials — use environment variables
+   - Minimal external dependencies (prefer stdlib)
+   - Follow the existing file and folder naming conventions
+4. **Open a Pull Request** with a clear description of what was changed and why
+
+### Reporting bugs or requesting features
+
+Open a [GitHub Issue](https://github.com/maxh33/vehicle-auction-ai/issues) describing:
+- What you expected to happen
+- What actually happened
+- Steps to reproduce (include anonymized dump excerpts if relevant)
+
+---
+
+## License
+
+MIT License — see [LICENSE](LICENSE) for full text.
+
+Free to use, modify, and distribute. Attribution appreciated but not required.
 
 ---
 
