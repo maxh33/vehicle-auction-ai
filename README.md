@@ -217,6 +217,8 @@ Campos estruturados: marca, modelo, versão, ano, condição, tipo de monta, tip
 
 Fotos: todas em HD (`1600×1200`) com extensão correta detectada automaticamente.
 
+![Copart scraper em execução — extração de dados e download de fotos HD](docs/copart-scraper-demo.webp)
+
 ### Limitações
 
 - **Condições Específicas do vendedor** — disponível como PDF em domínio autenticado (`erp.copart.com.br`). O link é salvo em `descricao-lote.txt` para download manual.
@@ -278,6 +280,8 @@ Incluir o arquivo `cesta-{tipo}.md` como contexto na análise de custo:
 ```bash
 python3 scripts/parse_pecas_olx.py --status
 ```
+
+![Banco de preços de peças — resumo por modelo e categoria](docs/parts-db-status.webp)
 
 ### Como usar na análise de lotes
 
