@@ -129,6 +129,8 @@ Generated markdown looks like:
 python3 scripts/parse_pecas_olx.py --status
 ```
 
+![Parts price database — summary by model and category](docs/parts-db-status.webp)
+
 ### Using prices in AI analysis
 
 Include the markdown file in the AI session context:
@@ -176,6 +178,8 @@ python3 scripts/copart_scraper.py https://www.copart.com.br/lot/1083986 --dir /p
 Structured fields: brand, model, trim, year, condition, title type, FIPE value, yard location, sale date, operational condition, notes, seller-specific terms link.
 
 Photos: all in HD (1600×1200) with correct file extension auto-detected.
+
+![Copart scraper running — data extraction and HD photo download](docs/copart-scraper-demo.webp)
 
 ---
 
