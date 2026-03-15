@@ -1,6 +1,6 @@
 # Preços de Peças — prius-zvw50-gen4
 
-> Tipo de dano: **colisao** | Fonte: OLX | Coletado: 2026-02-28 | Total: 592 peças
+> Tipo de dano: **colisao** | Fonte: OLX | Coletado: 2026-02-28 | Total: 600 peças
 
 ---
 
@@ -59,6 +59,9 @@
 
 | Peça | Preço ref. | Min | Max | Anúncios | Fonte |
 |------|-----------|-----|-----|----------|-------|
+| Farol LED Dianteiro (Novo Original Toyota) | R$ 11.000 | R$ 8.000 | R$ 15.000 | 0 | estimativa-concessionaria |
+| Farol LED Dianteiro Esquerdo Motorista | R$ 2.800 | R$ 2.508 | R$ 3.590 | 3 | mercadolivre.com.br / sucataodaspecas.com.br |
+| Farol LED Dianteiro Direito Passageiro | R$ 2.800 | R$ 2.508 | R$ 3.590 | 2 | mercadolivre.com.br / sucataodaspecas.com.br |
 | Lanterna Direita Superior Direito/Passageiro | R$ 1.199 | R$ 1.199 | R$ 1.199 | 1 | OLX/Nevada |
 | Lanterna Traseira Superior Direita Lado Passageiro | R$ 1.198 | R$ 1.198 | R$ 1.198 | 1 | OLX/Nevada |
 | Lanterna Direita Inferior Direito/Passageiro | R$ 999 | R$ 999 | R$ 999 | 1 | OLX/Nevada |
@@ -83,6 +86,11 @@
 |------|-----------|-----|-----|----------|-------|
 | Tampa Traseira Vidro Vigia | R$ 2.499 | R$ 2.499 | R$ 2.499 | 1 | OLX/Nevada |
 | Tampa Porta-Malas Completa Com Vidro Vigia | R$ 2.498 | R$ 2.498 | R$ 2.498 | 1 | OLX/Nevada |
+| Parabrisa Dianteiro (Aftermarket XYG/Fuyao) | R$ 1.556 | R$ 1.413 | R$ 1.638 | 4 | storeautovidros.com.br / autoglassonline.com.br |
+| Vidro Vigia Inferior Traseiro (Aftermarket Fuyao) | R$ 1.450 | R$ 1.413 | R$ 1.488 | 2 | storeautovidros.com.br |
+| Retrovisor Externo Completo Esquerdo/Direito (Novo) | R$ 1.000 | R$ 750 | R$ 1.400 | 3 | mercadolivre.com.br / estimativa |
+| Vidro Porta Dianteiro Esquerdo/Direito | R$ 680 | R$ 500 | R$ 900 | 2 | autoglassonline.com.br / estimativa |
+| Vidro Porta Traseiro Esquerdo/Direito | R$ 580 | R$ 450 | R$ 750 | 2 | autoglassonline.com.br / estimativa |
 | Mecanismo Braço Limpador Para-Brisa | R$ 548 | R$ 548 | R$ 548 | 1 | OLX/Nevada |
 | Vidro Fixo Traseiro Direito | R$ 299 | R$ 299 | R$ 299 | 1 | OLX/Nevada |
 | Vidro Fixo Traseiro Esquerdo | R$ 299 | R$ 299 | R$ 299 | 1 | OLX/Nevada |
