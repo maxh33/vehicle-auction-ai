@@ -35,3 +35,12 @@ Thumbs.db
 oauth_creds.json
 id_rsa
 id_ed25519
+
+# Documentos particulares (fora do escopo do projeto público)
+# Relatórios e cotações de seguro pessoal
+guias/*/relatorio-seguro*.md
+guias/*/relatorio-seguro*.pdf
+guias/*/*.pdf
+
+# Condições específicas de leilão (documentos privados dos lotes, exceto exemplos de referência)
+lotes/**/dados-brutos/*.pdf
