@@ -66,7 +66,9 @@ vehicle-auction-ai/
 │   │   ├── cesta-enchente.md          # Exportação para análise IA
 │   │   └── raw/                       # Dumps originais preservados
 │   └── byd-dolphin-mini/
-│       └── raw/
+│       ├── cesta-colisao.md           # Exportação para análise IA
+│       ├── cesta-enchente.md          # Exportação para análise IA
+│       └── raw/                       # Dumps originais preservados
 │
 ├── templates/                         # Prompts reutilizáveis (agnósticos de veículo)
 │   └── prompt-avaliacao-leilao.md     # Master prompt para análise de qualquer lote
@@ -76,15 +78,18 @@ vehicle-auction-ai/
 │       └── guia-precompra-prius-zvw50.md  # Checklist e diagnósticos para Prius Gen 4
 │
 ├── lotes/                             # Um subdiretório por lote analisado
-│   └── 0215-toyota-prius-nga-2017/   # Formato: {número}-{marca}-{modelo}-{ano}
-│       ├── analise-tecnica.md         # Avaliação foto-a-foto, danos, riscos, parecer
-│       ├── analise-custo.md           # Custos totais, cenários, decisão final
-│       ├── dados-brutos/
-│       │   ├── descricao-lote.txt     # Dados do lote extraídos do site da leiloeira
-│       │   ├── pagina-raw.md          # Markdown completo da página (lotes Copart)
-│       │   └── condicoes-venda.txt    # Regulamento completo da leiloeira
-│       └── fotos/
-│           └── *.jpg / *.webp         # Fotos originais do lote (nomes preservados)
+│   ├── 0215-toyota-prius-nga-2017/   # Formato: {número}-{marca}-{modelo}-{ano}
+│   │   ├── analise-tecnica.md         # Avaliação foto-a-foto, danos, riscos, parecer
+│   │   ├── analise-custo.md           # Custos totais, cenários, decisão final
+│   │   ├── dados-brutos/
+│   │   │   ├── descricao-lote.txt     # Dados do lote extraídos do site da leiloeira
+│   │   │   ├── pagina-raw.md          # Markdown completo da página (lotes Copart)
+│   │   │   └── condicoes-venda.txt    # Regulamento completo da leiloeira
+│   │   └── fotos/
+│   │       └── *.jpg / *.webp         # Fotos originais do lote (nomes preservados)
+│   ├── 1062630-toyota-prius-2016/    # Análise prévia — Venda Futura
+│   ├── 1064021-byd-dolphin-2025/     # Coletado — Venda Futura
+│   └── 1083986-byd-dolphin-mini-2025/ # Coletado — análise técnica pendente
 │
 └── .claude/
     └── settings.local.json            # Permissões do Claude Code para este projeto
@@ -308,8 +313,9 @@ Ou submeta o arquivo diretamente no contexto da sessão Claude.
 | Lote | Veículo | Leiloeira | Data | Lance máximo recomendado | Resultado |
 |------|---------|-----------|------|--------------------------|-----------|
 | 0215 | Toyota Prius NGA TOP 2017, 101.539 km, enchente, Média Monta | Sodré Santoro #28139 | 2026-02-27 | R$ 16.000 | CONDICIONAL — uso pessoal viável; arremate caiu em R$ 36.900 (acima do recomendado) |
-| 1062630 | Toyota Prius Hybrid 1.8 2016/2016, colisão, pátio Eusébio/CE | Copart Brazil | Venda Futura | — | MONITORANDO — aguardando liberação para leilão; análise técnica pendente |
-| 1083986 | BYD Dolphin Mini 2025, colisão (financiamento), pátio Eusébio/CE | Copart Brazil | 2026-02-28 | — | COLETADO — dados e 10 fotos HD via scraper; análise técnica pendente |
+| 1062630 | Toyota Prius Hybrid 1.8 2016/2016, colisão, pátio Eusébio/CE | Copart Brazil | Venda Futura | — | ANÁLISE PRÉVIA — aguardando data de leilão |
+| 1064021 | BYD Dolphin EV GS 70kW 2024/2025, financiamento, pátio Vitória de Santo Antão/PE | Copart Brazil | Venda Futura | — | COLETADO — aguardando liberação para leilão |
+| 1083986 | BYD Dolphin Mini 2025, colisão (financiamento), pátio Eusébio/CE | Copart Brazil | Venda Futura | — | COLETADO — dados e fotos HD via scraper; análise técnica pendente |
 
 ---
 

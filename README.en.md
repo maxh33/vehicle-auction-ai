@@ -64,7 +64,9 @@ vehicle-auction-ai/
 │   │   ├── cesta-enchente.md          # AI-ready price table (flood)
 │   │   └── raw/                       # Original OLX dumps (gitignored)
 │   └── byd-dolphin-mini/
-│       └── raw/
+│       ├── cesta-colisao.md           # AI-ready price table (collision)
+│       ├── cesta-enchente.md          # AI-ready price table (flood)
+│       └── raw/                       # Original OLX dumps (gitignored)
 │
 ├── templates/                         # Reusable prompts (vehicle-agnostic)
 │   └── prompt-avaliacao-leilao.md     # Master prompt for any lot analysis
@@ -74,11 +76,14 @@ vehicle-auction-ai/
 │       └── guia-precompra-prius-zvw50.md  # Prius Gen 4 pre-purchase checklist
 │
 └── lotes/                             # One subdirectory per analyzed lot
-    └── 0215-toyota-prius-nga-2017/
-        ├── analise-tecnica.md         # Damage assessment, risk analysis
-        ├── analise-custo.md           # Cost breakdown, bid recommendation
-        ├── dados-brutos/              # Raw data collected from auction site
-        └── fotos/                     # Original photos (gitignored)
+    ├── 0215-toyota-prius-nga-2017/    # Format: {number}-{make}-{model}-{year}
+    │   ├── analise-tecnica.md         # Damage assessment, risk analysis
+    │   ├── analise-custo.md           # Cost breakdown, bid recommendation
+    │   ├── dados-brutos/              # Raw data collected from auction site
+    │   └── fotos/                     # Original photos (gitignored)
+    ├── 1062630-toyota-prius-2016/     # Preliminary analysis — awaiting auction
+    ├── 1064021-byd-dolphin-2025/      # Collected — awaiting auction release
+    └── 1083986-byd-dolphin-mini-2025/ # Collected — analysis pending
 ```
 
 ---
@@ -188,8 +193,9 @@ Photos: all in HD (1600×1200) with correct file extension auto-detected.
 | Lot | Vehicle | Auction House | Date | Max Bid Rec. | Outcome |
 |-----|---------|---------------|------|-------------|---------|
 | 0215 | Toyota Prius NGA TOP 2017, 101.539 km, flood, Média Monta | Sodré Santoro #28139 | 2026-02-27 | R$ 16,000 | CONDITIONAL — personal use viable; sold for R$ 36,900 (above rec.) |
-| 1062630 | Toyota Prius Hybrid 1.8 2016/2016, collision, Eusébio/CE | Copart Brazil | TBD | — | MONITORING — awaiting auction release |
-| 1083986 | BYD Dolphin Mini 2025, collision (financed), Eusébio/CE | Copart Brazil | 2026-02-28 | — | COLLECTED — 10 HD photos via scraper; analysis pending |
+| 1062630 | Toyota Prius Hybrid 1.8 2016/2016, collision, Eusébio/CE | Copart Brazil | TBD | — | PRELIMINARY ANALYSIS — awaiting auction date |
+| 1064021 | BYD Dolphin EV GS 70kW 2024/2025, financed, Vitória de Santo Antão/PE | Copart Brazil | TBD | — | COLLECTED — awaiting auction release |
+| 1083986 | BYD Dolphin Mini 2025, collision (financed), Eusébio/CE | Copart Brazil | TBD | — | COLLECTED — HD photos via scraper; analysis pending |
 
 ---
 
