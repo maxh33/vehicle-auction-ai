@@ -1,5 +1,7 @@
 # Vehicle Auction AI
 
+[![GitHub stars](https://img.shields.io/github/stars/maxh33/vehicle-auction-ai?style=social)](https://github.com/maxh33/vehicle-auction-ai)
+
 > 🇺🇸 [English version](README.en.md) &nbsp;|&nbsp; [github.com/maxh33/vehicle-auction-ai](https://github.com/maxh33/vehicle-auction-ai)
 
 Framework de análise de lotes em leilões de veículos com apoio de IA (Claude/Gemini).
