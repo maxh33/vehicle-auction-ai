@@ -1,5 +1,7 @@
 # vehicle-auction-ai
 
+[![GitHub stars](https://img.shields.io/github/stars/maxh33/vehicle-auction-ai?style=social)](https://github.com/maxh33/vehicle-auction-ai)
+
 > 🇧🇷 [Versão em Português](README.md) &nbsp;|&nbsp; [github.com/maxh33/vehicle-auction-ai](https://github.com/maxh33/vehicle-auction-ai)
 
 AI-powered framework for analyzing salvage and damaged vehicles at Brazilian auctions (Copart Brazil, Sodré Santoro, and others).
